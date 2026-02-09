@@ -1,0 +1,36 @@
+# 데이터 (업로드 안함)
+
+data/
+
+# 중간 산출물
+
+intermediate_result/
+
+# 최종 결과
+
+results/
+
+# 맥OS 찌꺼기 파일
+
+.DS_Store
+
+# 주피터 임시파일
+
+.ipynb_checkpoints/
+
+# 파이썬 캐시
+
+**pycache**/
+*.pyc
+
+# 모델/학습 산출물 (혹시 생길 수 있음)
+
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# 가상환경
+
+venv/
+.env
